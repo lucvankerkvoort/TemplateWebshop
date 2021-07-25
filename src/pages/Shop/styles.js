@@ -12,3 +12,9 @@ export const ListView = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
 `;
+
+export const CarousalView = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;

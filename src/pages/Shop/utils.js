@@ -1,5 +1,5 @@
 export const VIEWSTATES = {
-    LIST: "list",
-    COLUMN: "column",
-    CAROUSAL: "carousal"
-}
+  LIST: "list",
+  COLUMN: "column",
+  CAROUSAL: "carousal",
+};

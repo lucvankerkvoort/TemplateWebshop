@@ -3,8 +3,8 @@ import { BuyButton } from "../../ui/general-styles";
 import Stars from "../Stars";
 import { Image, Price, Title, Wrapper, TextWrapper, Rating } from "./styles";
 
-const ColumnItem = ({ image = "", title = "", price = "" }) => (
-  <Wrapper>
+const ColumnItem = ({ image = "", title = "", price = "", select = false }) => (
+  <Wrapper select={select}>
     <Image src={image} />
     <TextWrapper>
       <Title>{title}</Title>

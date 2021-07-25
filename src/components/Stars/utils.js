@@ -5,7 +5,6 @@ export const starCount = (stars) => {
 
   for (let i = 1; i <= 5; i++) {
     i <= stars ? rating.push("full") : rating.push("empty");
-    console.log(i);
   }
   return rating;
 };

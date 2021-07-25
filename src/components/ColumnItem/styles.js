@@ -6,10 +6,12 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  transition: 0.15s;
+  transition: 0.75s;
 
   &:hover {
     background: rgba(0, 0, 0, 0.1);
+    margin: ${({ select }) => select && "2rem"};
+    transform: ${({ select }) => select && "scale(1.2)"};
   }
 `;
 
